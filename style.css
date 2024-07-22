@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+}
+
+.container {
+    position: relative;
+    background-image: url("images/credit\ card\ background.jpeg");
+    background-size: cover;
+    padding: 24px;
+    border-radius: 28px;
+    max-width: 380px;
+    width: 100%;
+    box-shadow: o 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+header,
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    width: 72px;
+    margin-right: 10px;
+}
+
+h5 {
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+}
+
+.container__img--chip {
+    width: 56px;
+}
+
+h6 {
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+h5.number {
+    margin-top: 4px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+h5.name {
+    margin-top: 12px;
+    color: red;
+}
+
+.container .card-details {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
